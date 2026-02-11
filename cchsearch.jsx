@@ -11,7 +11,7 @@ if (!window.storage) {
 
 const NewsSearcher = () => {
   // --- 請在這裡填入你的 Google API Key ---
-  const GOOGLE_API_KEY = "你的_GOOGLE_API_KEY_貼在這裡"; 
+  const GOOGLE_API_KEY = "AIzaSyDjxjPmrf3hHQWqErKp-_oMtoNytChq_6o"; 
   // 例如: const GOOGLE_API_KEY = "AIzaSyDxxxx...";
 
   const [newsLinks, setNewsLinks] = useState([]);
@@ -279,5 +279,6 @@ ${endDate ? `結束日期: ${endDate}` : ''}
     </div>
   );
 };
+
 
 export default NewsSearcher;
